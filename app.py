@@ -17,10 +17,10 @@ from nltk.stem import PorterStemmer
 import numpy as np
 
 
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('wordnet')
-nltk.download('averaged_perceptron_tagger')
+# nltk.download('punkt')
+# nltk.download('stopwords')
+# nltk.download('wordnet')
+# nltk.download('averaged_perceptron_tagger')
 
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']

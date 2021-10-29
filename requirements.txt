@@ -28,4 +28,5 @@ traitlets==4.3.2
 Werkzeug==0.15.4
 dash_extensions
 rank_bm25
+nltk
 

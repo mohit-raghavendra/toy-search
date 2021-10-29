@@ -153,7 +153,7 @@ app.layout = html.Div([
 
 @app.callback(
 	Output("show_results", "children"), 
-	Input("submit_query", "n_clicks"), 
+	[Input("submit_query", "n_clicks")], 
 	State('input_query','value')
 )
 def render_articles(n_clicks, query):
